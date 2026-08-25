@@ -1,0 +1,18 @@
+Model C: Fe-substituted CODH control
+====================================
+Number of atoms: 64
+Metal atoms present: 5 Fe (Model B Ni site replaced by Fe)
+Ligand atoms/fragments: Identical ligand atoms and coordinates to Model B
+Overall intended charge: Not assigned in Step 1; substitution changes element identity only, not a formally specified redox/protonation state
+
+Assumptions / modifications:
+- Exact copy of Model B coordinates followed by one atom-identity substitution: Ni -> Fe (named FE5).
+- No geometry relaxation, spin assignment, or DFT calculation was performed.
+
+Validation checks:
+- Closest atom-atom separation: 1.030 A (ND1-HND1).
+- Element counts: {'C': 15, 'Fe': 5, 'H': 33, 'N': 2, 'S': 9}
+- Nearest-heavy distance for added H atoms: 1.030-1.100 A.
+- Closest H--nonparent-heavy separation (second-nearest heavy): 2.089 A.
+- Maximum coordinate displacement relative to Model B: 0.000000 A (must be 0).
+- Artificial FE5--Cys526 SG starting distance: 2.104 A; this short distance is intentionally inherited from the experimental Ni--S coordinate and was not relaxed.

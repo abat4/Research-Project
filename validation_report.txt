@@ -1,0 +1,29 @@
+STRUCTURE VALIDATION SUMMARY
+
+MODEL A
+Closest atom-atom separation: 1.090 A (C1-H12).
+Element counts: {'C': 4, 'Fe': 4, 'H': 12, 'S': 8}
+Explicit X-H bond range: 1.090-1.090 A.
+Cubane Fe-S edge range: 2.300-2.300 A (12 edges).
+Cubane Fe-Fe range: 2.700-2.700 A.
+
+MODEL B
+Closest atom-atom separation: 1.030 A (ND1-HND1).
+Element counts: {'C': 15, 'Fe': 4, 'H': 33, 'N': 2, 'Ni': 1, 'S': 9}
+Nearest-heavy distance for added H atoms: 1.030-1.100 A.
+Closest H--nonparent-heavy separation (second-nearest heavy): 2.089 A.
+His261 NE2--FE2(B selected): 2.028 A
+Cys295(A selected) SG--FE2(B selected) [geometric contact; not deposited LINK]: 2.337 A
+Cys333 SG--FE1: 2.250 A
+Cys446 SG--FE3: 2.395 A
+Cys476 SG--FE4: 2.334 A
+Cys526 SG--Ni: 2.104 A
+Metal--core-S contacts under 2.75 A: FE1-S2 2.29, FE1-S3 2.21, FE1-S4 2.25, FE2-S3 2.19, FE3-S1 2.18, FE3-S2 2.25, FE3-S4 2.13, FE4-S1 2.19, FE4-S2 2.22, FE4-S3 2.25, NI-S1 2.23, NI-S4 2.09
+
+MODEL C
+Closest atom-atom separation: 1.030 A (ND1-HND1).
+Element counts: {'C': 15, 'Fe': 5, 'H': 33, 'N': 2, 'S': 9}
+Nearest-heavy distance for added H atoms: 1.030-1.100 A.
+Closest H--nonparent-heavy separation (second-nearest heavy): 2.089 A.
+Maximum coordinate displacement relative to Model B: 0.000000 A (must be 0).
+Artificial FE5--Cys526 SG starting distance: 2.104 A; this short distance is intentionally inherited from the experimental Ni--S coordinate and was not relaxed.

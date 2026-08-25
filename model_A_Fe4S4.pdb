@@ -1,0 +1,62 @@
+REMARK 999 Model A: idealized [Fe4S4(SCH3)4]2- starting structure.
+HETATM    1  FE1 F4S A   1       0.955   0.955   0.955  1.00  0.00          FE
+HETATM    2  FE2 F4S A   1       0.955  -0.955  -0.955  1.00  0.00          FE
+HETATM    3  FE3 F4S A   1      -0.955   0.955  -0.955  1.00  0.00          FE
+HETATM    4  FE4 F4S A   1      -0.955  -0.955   0.955  1.00  0.00          FE
+HETATM    5   S1 F4S A   1      -1.295   1.295   1.295  1.00  0.00           S
+HETATM    6   S2 F4S A   1       1.295  -1.295   1.295  1.00  0.00           S
+HETATM    7   S3 F4S A   1       1.295   1.295  -1.295  1.00  0.00           S
+HETATM    8   S4 F4S A   1      -1.295  -1.295  -1.295  1.00  0.00           S
+HETATM    9  SL1 MTS A   2       2.271   2.271   2.271  1.00  0.00           S
+HETATM   10   C1 MTS A   2       3.322   3.322   3.322  1.00  0.00           C
+HETATM   11  H11 MTS A   2       2.805   4.258   3.532  1.00  0.00           H
+HETATM   12  H12 MTS A   2       4.258   3.532   2.805  1.00  0.00           H
+HETATM   13  H13 MTS A   2       3.532   2.805   4.258  1.00  0.00           H
+HETATM   14  SL2 MTS A   3       2.271  -2.271  -2.271  1.00  0.00           S
+HETATM   15   C2 MTS A   3       3.322  -3.322  -3.322  1.00  0.00           C
+HETATM   16  H21 MTS A   3       4.258  -2.805  -3.532  1.00  0.00           H
+HETATM   17  H22 MTS A   3       2.805  -3.532  -4.258  1.00  0.00           H
+HETATM   18  H23 MTS A   3       3.532  -4.258  -2.805  1.00  0.00           H
+HETATM   19  SL3 MTS A   4      -2.271   2.271  -2.271  1.00  0.00           S
+HETATM   20   C3 MTS A   4      -3.322   3.322  -3.322  1.00  0.00           C
+HETATM   21  H31 MTS A   4      -4.258   2.805  -3.532  1.00  0.00           H
+HETATM   22  H32 MTS A   4      -2.805   3.532  -4.258  1.00  0.00           H
+HETATM   23  H33 MTS A   4      -3.532   4.258  -2.805  1.00  0.00           H
+HETATM   24  SL4 MTS A   5      -2.271  -2.271   2.271  1.00  0.00           S
+HETATM   25   C4 MTS A   5      -3.322  -3.322   3.322  1.00  0.00           C
+HETATM   26  H41 MTS A   5      -2.805  -4.258   3.532  1.00  0.00           H
+HETATM   27  H42 MTS A   5      -4.258  -3.532   2.805  1.00  0.00           H
+HETATM   28  H43 MTS A   5      -3.532  -2.805   4.258  1.00  0.00           H
+CONECT    1    5
+CONECT    1    6
+CONECT    1    7
+CONECT    2    6
+CONECT    2    7
+CONECT    2    8
+CONECT    3    5
+CONECT    3    7
+CONECT    3    8
+CONECT    4    5
+CONECT    4    6
+CONECT    4    8
+CONECT    1    9
+CONECT    9   10
+CONECT   10   11
+CONECT   10   12
+CONECT   10   13
+CONECT    2   14
+CONECT   14   15
+CONECT   15   16
+CONECT   15   17
+CONECT   15   18
+CONECT    3   19
+CONECT   19   20
+CONECT   20   21
+CONECT   20   22
+CONECT   20   23
+CONECT    4   24
+CONECT   24   25
+CONECT   25   26
+CONECT   25   27
+CONECT   25   28
+END

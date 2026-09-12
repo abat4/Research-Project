@@ -1,0 +1,20 @@
+start water_test
+
+title "NWChem installation test"
+
+geometry units angstrom
+O  0.000000  0.000000  0.000000
+H  0.758602  0.000000  0.504284
+H -0.758602  0.000000  0.504284
+end
+
+basis
+* library 6-31g
+end
+
+dft
+xc b3lyp
+end
+
+task dft energy
+

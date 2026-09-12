@@ -1,0 +1,19 @@
+Recorded: 2026-09-09T13:43:33-05:00
+
+Ubuntu:
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.5 LTS
+Release:	24.04
+Codename:	noble
+
+NWChem:
+/usr/bin/nwchem
+ii  nwchem                           7.2.2-1build3                                    all          High-performance computational chemistry software (default MPI)
+ii  nwchem-data                      7.2.2-1build3                                    all          High-performance computational chemistry software (data files)
+ii  nwchem-openmpi                   7.2.2-1build3                                    amd64        High-performance computational chemistry software (OpenMPI build)
+
+Open Babel:
+Open Babel 3.1.1 -- Mar 31 2024 -- 06:39:03
+
+Python:
+Python 3.12.3

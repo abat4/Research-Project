@@ -1,0 +1,32 @@
+echo
+
+start A_BS2_relax
+
+title "Model A BS2 unconstrained broken-symmetry screening"
+
+memory total 800 mb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 1
+    xc becke88 perdew86
+    iterations 150
+
+    convergence fast energy 1e-5 density 1e-4 gradient 1e-3
+
+    vectors input BS2_seed.movecs output BS2.movecs
+
+    mulliken
+end
+
+task dft energy

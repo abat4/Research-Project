@@ -1,0 +1,26 @@
+echo
+start B_m2
+title "Model B charge -4 multiplicity 2 screen"
+
+memory total 700 mb
+charge -4
+
+geometry units angstrom noautoz nocenter noautosym
+ load format xyz start.xyz
+end
+
+basis spherical
+ * library def2-svp
+end
+
+dft
+ odft
+ mult 2
+ xc becke88 perdew86
+ iterations 100
+ convergence fast energy 1e-4 density 5e-4 gradient 5e-3
+ mulliken
+ vectors output B_m2.movecs
+end
+
+task dft energy

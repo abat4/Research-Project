@@ -1,0 +1,40 @@
+echo
+
+start A_BS2_seed
+
+title "Model A BS2 constrained spin seed"
+
+memory total 800 mb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 1
+    xc becke88 perdew86
+    iterations 150
+
+    convergence nolevelshifting
+    convergence energy 1e-5 density 1e-4 gradient 1e-3
+
+    vectors input A_HS_reference.movecs output BS2_seed.movecs
+
+    cdft 1 1 spin 3.5 pop mulliken
+    cdft 2 2 spin -3.5
+    cdft 3 3 spin 3.5
+    cdft 4 4 spin -3.5
+
+    mulliken
+end
+
+set dft:cdft_maxiter 200
+
+task dft energy

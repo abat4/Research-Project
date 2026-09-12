@@ -1,0 +1,36 @@
+echo
+
+start A_HS_SVP
+
+title "Model A Fe4S4 maximum-spin reference BP86 def2-SVP"
+
+memory total 4 gb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 19
+    xc becke88 perdew86
+    iterations 150
+
+    convergence energy 1e-5
+    convergence density 1e-4
+    convergence gradient 1e-3
+    convergence damp 40
+    convergence lshift 0.5
+
+    mulliken
+    vectors input atomic output A_HS_SVP.movecs
+end
+
+task dft energy
+

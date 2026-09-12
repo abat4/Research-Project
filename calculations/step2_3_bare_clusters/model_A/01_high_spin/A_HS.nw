@@ -1,0 +1,30 @@
+echo
+
+start A_HS
+
+title "Model A Fe4S4 maximum-spin reference"
+
+memory total 4 gb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-tzvp
+end
+
+dft
+    odft
+    mult 19
+    xc becke88 perdew86
+    iterations 300
+    convergence energy 1e-7
+    mulliken
+    vectors input atomic output A_HS.movecs
+end
+
+task dft energy
+

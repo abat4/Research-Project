@@ -1,0 +1,30 @@
+Model B: CODH Ni-Fe-S active-site model
+=======================================
+Number of atoms: 64
+Metal atoms present: 4 Fe + 1 Ni
+Ligand atoms/fragments: Cys295/Cys333/Cys446/Cys476/Cys526 truncated at CA; His261 truncated at CA; 4 inorganic cluster sulfides
+Overall intended charge: Not assigned in Step 1 (depends on C-cluster redox state/protonation; five cysteine fragments carry -1 each in the ligand graph)
+
+Assumptions / modifications:
+- CYS295 CA: alternates present (altloc A occ=0.80, altloc B occ=0.20); highest occupancy selected.
+- CYS295 CB: alternates present (altloc A occ=0.80, altloc B occ=0.20); highest occupancy selected.
+- CYS295 SG: alternates present (altloc A occ=0.80, altloc B occ=0.20); highest occupancy selected.
+- XCC FE2: alternates present (altloc A occ=0.10 at (54.250,13.150,49.544), altloc B occ=0.70 at (53.138,13.745,49.039)); highest occupancy selected.
+- CO2 X1005 is present in the deposited structure but intentionally excluded because the requested Model B composition lists the metal cluster plus six protein ligands, not substrate CO2.
+- Cys295 is independently highest-occupancy altloc A (0.80), whereas XCC FE2 is highest-occupancy altloc B (0.70). This mixed major-occupancy selection is explicit; no alternate coordinates were averaged.
+- The deposited LINK records associate Cys295(A)-FE2(A) and His261-FE2(B). Therefore no new Cys295(A)-FE2(B) bond record is invented; its starting distance is reported only as a geometric contact.
+- Five cysteines are represented as deprotonated thiolates; His261 is neutral with ND1-H and NE2 unprotonated. This protonation choice is a starting-model assumption, not an experimentally resolved hydrogen assignment.
+- Backbone N/C/O atoms were removed. The retained CA atoms were saturated with H by RDKit, making each CA a methyl cap; side-chain heavy-atom coordinates remain exactly experimental.
+
+Validation checks:
+- Closest atom-atom separation: 1.030 A (ND1-HND1).
+- Element counts: {'C': 15, 'Fe': 4, 'H': 33, 'N': 2, 'Ni': 1, 'S': 9}
+- Nearest-heavy distance for added H atoms: 1.030-1.100 A.
+- Closest H--nonparent-heavy separation (second-nearest heavy): 2.089 A.
+- His261 NE2--FE2(B selected): 2.028 A
+- Cys295(A selected) SG--FE2(B selected) [geometric contact; not deposited LINK]: 2.337 A
+- Cys333 SG--FE1: 2.250 A
+- Cys446 SG--FE3: 2.395 A
+- Cys476 SG--FE4: 2.334 A
+- Cys526 SG--Ni: 2.104 A
+- Metal--core-S contacts under 2.75 A: FE1-S2 2.29, FE1-S3 2.21, FE1-S4 2.25, FE2-S3 2.19, FE3-S1 2.18, FE3-S2 2.25, FE3-S4 2.13, FE4-S1 2.19, FE4-S2 2.22, FE4-S3 2.25, NI-S1 2.23, NI-S4 2.09

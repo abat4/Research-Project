@@ -1,0 +1,26 @@
+MODEL B xTB OPTIMIZATION
+Method: GFN1-xTB
+Charge: -4
+UHF: 1
+Solvation: ALPB water
+
+ * total energy  :  -106.7097215 Eh     change       -0.1563963E-03 Eh
+   gradient norm :     0.0045039 Eh/α   predicted    -0.1351189E-03 ( -13.60%)
+ * total energy  :  -106.7098778 Eh     change       -0.1562571E-03 Eh
+   gradient norm :     0.0039756 Eh/α   predicted    -0.1283093E-03 ( -17.89%)
+ * total energy  :  -106.7100218 Eh     change       -0.1440239E-03 Eh
+   gradient norm :     0.0046409 Eh/α   predicted    -0.1106659E-03 ( -23.16%)
+ * total energy  :  -106.7101916 Eh     change       -0.1697393E-03 Eh
+   gradient norm :     0.0038714 Eh/α   predicted     0.0000000E+00 (-100.00%)
+ * total energy  :  -106.7102559 Eh     change       -0.6435208E-04 Eh
+   gradient norm :     0.0015733 Eh/α   predicted    -0.4188354E-04 ( -34.92%)
+ * total energy  :  -106.7103233 Eh     change       -0.6738430E-04 Eh
+   gradient norm :     0.0036278 Eh/α   predicted    -0.4882359E-04 ( -27.54%)
+ * total energy  :  -106.7103581 Eh     change       -0.3484322E-04 Eh
+   gradient norm :     0.0027549 Eh/α   predicted    -0.1930147E-04 ( -44.60%)
+   *** GEOMETRY OPTIMIZATION CONVERGED AFTER 70 ITERATIONS ***
+ total energy gain   :        -0.1013614 Eh      -63.6052 kcal/mol
+         :: total energy            -106.710358133622 Eh    ::
+         :: gradient norm              0.002754929883 Eh/a0 ::
+          | TOTAL ENERGY             -106.710358133622 Eh   |
+          | GRADIENT NORM               0.002754929883 Eh/α |

@@ -1,0 +1,68 @@
+REMARK 999 Model B: truncated 3B52 C-cluster first shell.
+REMARK 999 Major-occupancy coordinate selection; no coordinate averaging.
+REMARK 999 No CONECT/LINK invented for ambiguous Cys295(A)-FE2(B).
+HETATM    1   CA CYS X 295      53.654  15.466  52.989  1.00  0.00           C
+HETATM    2   CB CYS X 295      53.306  15.907  51.576  1.00  0.00           C
+HETATM    3   SG CYS X 295      54.408  15.208  50.346  1.00  0.00           S
+HETATM    4 HCA1 CYS X 295      53.141  16.116  53.713  1.00  0.00           H
+HETATM    5 HCA2 CYS X 295      53.331  14.425  53.138  1.00  0.00           H
+HETATM    6 HCA3 CYS X 295      54.741  15.538  53.138  1.00  0.00           H
+HETATM    7 HCB1 CYS X 295      52.278  15.588  51.350  1.00  0.00           H
+HETATM    8 HCB2 CYS X 295      53.409  17.001  51.533  1.00  0.00           H
+HETATM    9   CA CYS X 333      47.992   9.743  49.343  1.00  0.00           C
+HETATM   10   CB CYS X 333      49.415  10.237  49.557  1.00  0.00           C
+HETATM   11   SG CYS X 333      50.135  10.743  48.005  1.00  0.00           S
+HETATM   12 HCA1 CYS X 333      47.511   9.576  50.318  1.00  0.00           H
+HETATM   13 HCA2 CYS X 333      47.423  10.496  48.778  1.00  0.00           H
+HETATM   14 HCA3 CYS X 333      48.013   8.799  48.778  1.00  0.00           H
+HETATM   15 HCB1 CYS X 333      49.402  11.093  50.247  1.00  0.00           H
+HETATM   16 HCB2 CYS X 333      50.017   9.420  49.981  1.00  0.00           H
+HETATM   17   CA CYS X 446      56.666   7.226  47.927  1.00  0.00           C
+HETATM   18   CB CYS X 446      55.377   6.783  47.187  1.00  0.00           C
+HETATM   19   SG CYS X 446      54.793   7.986  45.930  1.00  0.00           S
+HETATM   20 HCA1 CYS X 446      56.503   7.170  49.013  1.00  0.00           H
+HETATM   21 HCA2 CYS X 446      57.497   6.562  47.646  1.00  0.00           H
+HETATM   22 HCA3 CYS X 446      56.913   8.261  47.646  1.00  0.00           H
+HETATM   23 HCB1 CYS X 446      55.578   5.826  46.684  1.00  0.00           H
+HETATM   24 HCB2 CYS X 446      54.584   6.702  47.945  1.00  0.00           H
+HETATM   25   CA CYS X 476      58.208   9.851  51.880  1.00  0.00           C
+HETATM   26   CB CYS X 476      56.995   8.957  51.564  1.00  0.00           C
+HETATM   27   SG CYS X 476      55.468   9.787  52.091  1.00  0.00           S
+HETATM   28 HCA1 CYS X 476      58.326   9.938  52.970  1.00  0.00           H
+HETATM   29 HCA2 CYS X 476      59.115   9.404  51.448  1.00  0.00           H
+HETATM   30 HCA3 CYS X 476      58.050  10.850  51.448  1.00  0.00           H
+HETATM   31 HCB1 CYS X 476      56.953   8.767  50.481  1.00  0.00           H
+HETATM   32 HCB2 CYS X 476      57.096   8.003  52.103  1.00  0.00           H
+HETATM   33   CA CYS X 526      57.050  16.498  47.539  1.00  0.00           C
+HETATM   34   CB CYS X 526      55.963  15.534  47.126  1.00  0.00           C
+HETATM   35   SG CYS X 526      56.242  13.877  47.831  1.00  0.00           S
+HETATM   36 HCA1 CYS X 526      57.102  16.544  48.637  1.00  0.00           H
+HETATM   37 HCA2 CYS X 526      58.016  16.154  47.140  1.00  0.00           H
+HETATM   38 HCA3 CYS X 526      56.824  17.498  47.140  1.00  0.00           H
+HETATM   39 HCB1 CYS X 526      54.993  15.915  47.479  1.00  0.00           H
+HETATM   40 HCB2 CYS X 526      55.973  15.450  46.029  1.00  0.00           H
+HETATM   41   CA HIS X 261      49.439  17.614  51.598  1.00  0.00           C
+HETATM   42   CB HIS X 261      49.329  17.405  50.091  1.00  0.00           C
+HETATM   43   CG HIS X 261      49.927  16.115  49.698  1.00  0.00           C
+HETATM   44  ND1 HIS X 261      49.318  14.923  50.023  1.00  0.00           N
+HETATM   45  CE1 HIS X 261      50.119  13.928  49.707  1.00  0.00           C
+HETATM   46  NE2 HIS X 261      51.239  14.432  49.225  1.00  0.00           N
+HETATM   47  CD2 HIS X 261      51.156  15.798  49.238  1.00  0.00           C
+HETATM   48 HCA1 HIS X 261      48.988  16.758  52.121  1.00  0.00           H
+HETATM   49 HCA2 HIS X 261      50.499  17.699  51.880  1.00  0.00           H
+HETATM   50 HCA3 HIS X 261      48.909  18.536  51.880  1.00  0.00           H
+HETATM   51 HCB1 HIS X 261      48.268  17.414  49.802  1.00  0.00           H
+HETATM   52 HCB2 HIS X 261      49.871  18.216  49.581  1.00  0.00           H
+HETATM   53 HND1 HIS X 261      48.384  14.826  50.446  1.00  0.00           H
+HETATM   54 HCE1 HIS X 261      49.893  12.858  49.825  1.00  0.00           H
+HETATM   55 HCD2 HIS X 261      51.942  16.504  48.932  1.00  0.00           H
+HETATM   56  FE1 XCC X1006      52.303  10.707  48.604  1.00  0.00          FE
+HETATM   57  FE2 XCC X1006      53.138  13.745  49.039  1.00  0.00          FE
+HETATM   58  FE3 XCC X1006      54.305   9.665  47.566  1.00  0.00          FE
+HETATM   59  FE4 XCC X1006      54.357  10.294  50.102  1.00  0.00          FE
+HETATM   60   S1 XCC X1006      55.828  10.846  48.580  1.00  0.00           S
+HETATM   61   S2 XCC X1006      53.138   8.665  49.209  1.00  0.00           S
+HETATM   62   S3 XCC X1006      52.881  11.984  50.312  1.00  0.00           S
+HETATM   63   S4 XCC X1006      53.234  11.245  46.628  1.00  0.00           S
+HETATM   64   NI XCC X1006      54.831  12.398  47.331  1.00  0.00          NI
+END

@@ -1,0 +1,36 @@
+# NWChem scratch / restart files
+*.aoints.*
+*.gridpts.*
+*.db
+*.movecs
+*.drv.hess
+*.hess
+*.b
+*.civecs
+*.qmd
+*.jrh
+
+# xTB temporary/restart files
+charges
+wbo
+xtbrestart
+xtbtopo.mol
+xtb.trj
+g98.out
+coord.original
+
+# Large backups / archives
+backups/
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Runtime files
+*.pid
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp

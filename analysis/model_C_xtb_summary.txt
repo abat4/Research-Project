@@ -1,0 +1,4 @@
+MODEL C GFN1-xTB OPTIMIZATION
+Charge: -4
+UHF: 1
+Solvation: ALPB water

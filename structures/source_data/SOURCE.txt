@@ -1,0 +1,9 @@
+Source entry: PDB 3B52, chain X, current remediated entry inspected 2026-08-17.
+Current entry reports version 2.0 / remediation date 2026-08-12.
+RCSB entry page: https://www.rcsb.org/structure/3B52
+Canonical full-PDB download location for independent reproduction: https://files.rcsb.org/download/3B52.pdb
+PDBj text display used to inspect exact current coordinate/LINK records: https://pdbj.org/emnavi/disp.php?a=arch.pdb.3b52
+
+The bundled file is a verbatim active-site RECORD SUBSET, not the complete 3B52 archive.
+It contains all target-residue coordinate records, XCC cluster coordinates (including FE2 A/B), deposited CO2 coordinates, and relevant LINK records used for Step 1.
+SHA256 of bundled subset: b3caf25ea84c44b6c835f08f6cd4862deb81f97c2f6bfdec7ea67a33704c2841

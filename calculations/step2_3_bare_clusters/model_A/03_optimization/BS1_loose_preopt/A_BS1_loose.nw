@@ -1,0 +1,42 @@
+echo
+
+start A_BS1_loose
+
+title "Model A BS1 loose preoptimization"
+
+memory total 1 gb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 1
+    xc becke88 perdew86
+
+    iterations 150
+
+    convergence fast energy 1e-5 density 1e-4 gradient 1e-3
+
+    vectors input start.movecs output A_BS1_loose.movecs
+
+    mulliken
+end
+
+driver
+    loose
+    maxiter 30
+    xyz A_BS1_loose
+end
+
+set driver:linopt 0
+
+task dft optimize
+

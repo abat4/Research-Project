@@ -1,0 +1,30 @@
+echo
+
+start A_HS_SVP3
+
+title "Model A maximum-spin BP86 def2-SVP screening"
+
+memory total 1 gb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 19
+    xc becke88 perdew86
+    iterations 100
+    convergence fast energy 1e-5 density 1e-4 gradient 1e-3
+    mulliken
+    vectors input atomic output A_HS_SVP3.movecs
+end
+
+task dft energy
+

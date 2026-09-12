@@ -1,0 +1,37 @@
+echo
+start B_m2_fast
+
+title "Model B fast BP86 screening"
+
+memory total 1 gb
+charge -4
+
+geometry units angstrom noautoz nocenter noautosym
+ load format xyz start.xyz
+end
+
+basis spherical
+ H  library 3-21g
+ C  library 3-21g
+ N  library 3-21g
+ S  library 3-21g
+ Fe library LANL2DZ_ECP
+ Ni library LANL2DZ_ECP
+end
+
+ecp
+ Fe library LANL2DZ_ECP
+ Ni library LANL2DZ_ECP
+end
+
+dft
+ odft
+ mult 2
+ xc becke88 perdew86
+ iterations 150
+ convergence fast energy 1e-4 density 1e-3 gradient 1e-2
+ mulliken
+ vectors output B_m2_fast.movecs
+end
+
+task dft energy

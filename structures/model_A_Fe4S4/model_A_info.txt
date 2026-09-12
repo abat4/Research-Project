@@ -1,0 +1,17 @@
+Model A: Simple [4Fe-4S] cluster
+================================
+Number of atoms: 28
+Metal atoms present: 4 Fe
+Ligand atoms/fragments: 4 bridging sulfides + 4 methylthiolate S/C fragments (SCH3)
+Overall intended charge: -2
+
+Assumptions / modifications:
+- Idealized cubane-like starting geometry generated from interpenetrating Fe/S tetrahedra; target Fe-Fe 2.70 A and nearest Fe-S 2.30 A. Four terminal Fe-S bonds are 2.28 A, S-C bonds 1.82 A, and C-H bonds 1.09 A. No optimization was performed.
+- Formal charge follows the requested [Fe4S4(SCH3)4]2- composition; no spin state assigned.
+
+Validation checks:
+- Closest atom-atom separation: 1.090 A (C1-H12).
+- Element counts: {'C': 4, 'Fe': 4, 'H': 12, 'S': 8}
+- Explicit X-H bond range: 1.090-1.090 A.
+- Cubane Fe-S edge range: 2.300-2.300 A (12 edges).
+- Cubane Fe-Fe range: 2.700-2.700 A.

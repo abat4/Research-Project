@@ -1,0 +1,22 @@
+Job: A_HS_SVP3
+Model: A — [Fe4S4(SCH3)4]2-
+Calculation: maximum-spin single-point screening
+Charge: -2
+Multiplicity: 19
+Functional: BP86
+Basis: def2-SVP
+Parallelization: 4 MPI processes
+
+SCF status: CONVERGED
+SCF iterations: 25
+Final DFT energy: -8399.820443085609 Hartree
+Final DeltaE: -5.22e-06 Hartree
+Numerically integrated electron density: 270.000085403414
+Total iterative time: 636.2 s
+
+Purpose:
+Generate a converged maximum-spin electronic reference for construction
+of broken-symmetry Model A states.
+
+This is a screening-level result and is not the final def2-TZVP
+production energy.

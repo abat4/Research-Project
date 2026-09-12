@@ -1,0 +1,40 @@
+echo
+
+start A_BS1_opt
+
+title "Model A representative BS1 geometry optimization"
+
+memory total 1 gb
+
+charge -2
+
+geometry units angstrom noautoz nocenter noautosym
+    load format xyz start.xyz
+end
+
+basis spherical
+    * library def2-svp
+end
+
+dft
+    odft
+    mult 1
+    xc becke88 perdew86
+
+    iterations 150
+
+    convergence fast energy 1e-5 density 1e-4 gradient 1e-3
+
+    vectors input start_BS1.movecs output A_BS1_opt.movecs
+
+    mulliken
+end
+
+driver
+    default
+    maxiter 40
+    xyz A_BS1_opt
+end
+
+task dft optimize
+

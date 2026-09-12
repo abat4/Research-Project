@@ -1,0 +1,31 @@
+echo
+start B_m2_retry
+title "Model B charge -4 multiplicity 2 robust screen"
+
+memory total 700 mb
+charge -4
+
+geometry units angstrom noautoz nocenter noautosym
+ load format xyz start.xyz
+end
+
+basis spherical
+ * library def2-svp
+end
+
+dft
+ odft
+ mult 2
+ xc becke88 perdew86
+
+ iterations 200
+
+ convergence energy 1e-4 density 1e-3 gradient 1e-2 \
+             damp 50 lshift 0.5 diis 6 rabuck 30
+
+ vectors input B_m2.movecs output B_m2_retry.movecs
+
+ mulliken
+end
+
+task dft energy

@@ -1,0 +1,6 @@
+$constrain
+ force constant=0.10
+ distance: 4, 29, 2.200
+ distance: 29, 30, 1.160
+ distance: 29, 31, 1.160
+$end
